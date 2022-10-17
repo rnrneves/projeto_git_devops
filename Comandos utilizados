@@ -54,10 +54,9 @@ git log
 
 criando um repositorio: devops-cloud
 
-configurando credentiasl para o GitHub (if you used different credentials for Author Name/Email):
 
-git config user.name devopscloudbootcamp
-git config user.email devopscloud.bootcamp@outlook.com
+git config user.name rnrneves
+git config user.email raimneves@gmail.com
 
 conectando o 'repo' local com o remoto (origin):
 
@@ -90,7 +89,7 @@ verificando se o repo Local está atualizado:
 
 git remote show origin
 
- downloading / atualizando o repositorio Local:
+downloading / atualizando o repositorio Local:
 
 git pull
 
@@ -103,19 +102,19 @@ git status
 git log
 git show [hash]
 
- atualizando/uploading repositorio remoto:
+atualizando/uploading repositorio remoto:
 
 git push -u origin main
 
- revertendo o último commit:
+revertendo o último commit:
 
 git revert hash
 
- verificando se o repositorio Remote esta atualizado:
+verificando se o repositorio Remote esta atualizado:
 
 git status uno
 
- atualizando/uploading repositorio remoto:
+atualizando/uploading repositorio remoto:
 
 git push -u origin main
 
